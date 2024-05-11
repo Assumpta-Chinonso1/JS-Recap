@@ -2,6 +2,8 @@
 
  const output = document.getElementById('output')
 
+ const btn = document.getElementById('countBtn')
+
  btnRate.addEventListener('click', () => {
     const rates = document.getElementsByName('rate')
 
@@ -12,3 +14,8 @@
         }
     })
  })
+
+   btn.addEventListener('click', () =>{
+    const headings = document.getElementsByTagName('h2')
+    alert(`The number of H2 Tags: ${headings.length}`)
+   })
