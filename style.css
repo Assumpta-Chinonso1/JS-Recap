@@ -1,0 +1,30 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(197, 191, 184);
+    
+    
+}
+label{
+    padding: 5px;
+    margin: 5px;
+    font-weight: lighter;
+    color: rgb(17, 9, 9);
+    
+}
+
+ p{
+    font-weight: bold;
+   color: rgb(11, 11, 15);
+}
+
+button{
+    margin-bottom: 10px;
+       padding: 5px;
+       border-radius: 5px;
+      color: rgb(10, 4, 4);
+
+}
+
+button:hover{
+    color: red;
+}
