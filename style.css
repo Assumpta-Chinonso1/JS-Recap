@@ -20,6 +20,7 @@ label{
 button{
     margin-bottom: 10px;
        padding: 5px;
+       margin-top: 20px;
        border-radius: 5px;
       color: rgb(10, 4, 4);
 
@@ -27,4 +28,22 @@ button{
 
 button:hover{
     color: red;
+}
+
+img{
+    width: 40%;
+    border-radius: 20px;
+}
+
+.menu-item{
+    color: blue;
+    padding: 20px;
+    margin-left: 20px;
+    display: inline;
+    justify-items: flex-end;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
 }
